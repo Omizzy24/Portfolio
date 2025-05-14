@@ -3,19 +3,14 @@ import "./education.css";
 
 const educationList = [
   {
-    school: "School",
-    year: "20xx-20xx",
-    description: "General Studies",
+    school: "University of Connecticut",
+    year: "Dec 2022",
+    description: "Master of Science in Quantitative Economics",
   },
   {
-    school: "University",
-    year: "20xx-20xx",
-    description: "Diploma in Computer Science",
-  },
-  {
-    school: "More",
-    year: "20xx-20xx",
-    description: "Something here too.",
+    school: "University of Connecticut",
+    year: "May 2021",
+    description: "Bachelor of Science in Economics & Microbiology",
   },
 ];
 
@@ -62,7 +57,7 @@ export function EducationItem({
   return (
     <div className={`event-item ${poppins.className}`}>
       <div className="empty-space" />
-      {/* TODO: Add reverse for every other element. */}
+      {/* Adding reverse for alternating layout */}
       <div className="event-icon">
         {/* TODO: Replace with actual icon */}
         <svg
@@ -86,3 +81,4 @@ export function EducationItem({
     </div>
   );
 }
+

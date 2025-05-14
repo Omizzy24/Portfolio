@@ -117,3 +117,98 @@ export function Swift() {
         </svg>
     );
 }
+
+export function AWSGlue() {
+    return (
+        <svg viewBox="0 0 128 128">
+            <path
+                fill="#FF9900"
+                d="M64 0L0 64h128L64 0z"
+            ></path>
+            <path
+                fill="#232F3E"
+                d="M64 128L0 64h128L64 128z"
+            ></path>
+        </svg>
+    );
+}
+
+export function Python() {
+    return (
+        <svg viewBox="0 0 128 128">
+            <path
+                fill="#3776AB"
+                d="M64 0C28.65 0 0 28.65 0 64s28.65 64 64 64 64-28.65 64-64S99.35 0 64 0z"
+            ></path>
+            <path
+                fill="#FFD43B"
+                d="M64 16c26.51 0 48 21.49 48 48s-21.49 48-48 48-48-21.49-48-48S37.49 16 64 16z"
+            ></path>
+        </svg>
+    );
+}
+
+export function Snowflake() {
+    return (
+        <svg viewBox="0 0 128 128">
+            <path
+                fill="#29B5E8"
+                d="M64 0L0 64h128L64 0z"
+            ></path>
+            <path
+                fill="#FFFFFF"
+                d="M64 128L0 64h128L64 128z"
+            ></path>
+        </svg>
+    );
+}
+
+export function DynamoDB() {
+    return (
+        <svg viewBox="0 0 128 128">
+            <circle cx="64" cy="64" r="64" fill="#4053D6"></circle>
+            <path
+                fill="#FFFFFF"
+                d="M64 16c26.51 0 48 21.49 48 48s-21.49 48-48 48-48-21.49-48-48S37.49 16 64 16z"
+            ></path>
+        </svg>
+    );
+}
+
+export function Oracle() {
+    return (
+        <svg viewBox="0 0 128 128">
+            <rect width="128" height="128" fill="#F80000"></rect>
+            <text
+                x="50%"
+                y="50%"
+                fill="#FFFFFF"
+                fontSize="24"
+                fontWeight="bold"
+                textAnchor="middle"
+                alignmentBaseline="middle"
+            >
+                Oracle
+            </text>
+        </svg>
+    );
+}
+
+export function Databricks() {
+    return (
+        <svg viewBox="0 0 128 128">
+            <rect width="128" height="128" fill="#FF3621"></rect>
+            <text
+                x="50%"
+                y="50%"
+                fill="#FFFFFF"
+                fontSize="24"
+                fontWeight="bold"
+                textAnchor="middle"
+                alignmentBaseline="middle"
+            >
+                Databricks
+            </text>
+        </svg>
+    );
+}

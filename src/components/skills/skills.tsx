@@ -1,4 +1,4 @@
-import { HTML5, Unity, NodeJS, Swift } from '@/components/ui/icons';
+import { AWSGlue, Snowflake, DynamoDB, Python } from '@/components/ui/icons';
 
 import "./skills.css";
 
@@ -18,32 +18,32 @@ export default function Skills() {
                 <div className="container">
                     <div className="boxes">
                         <div className="left">
-                            <HTML5 />
+                            <DynamoDB />
                         </div>
-                        <div className="right">FRONTEND DEVELOPMENT</div>
+                        <div className="right">FULLSTACK DEVELOPMENT</div>
                     </div>
                     <div className="boxes">
                         <div className="left">
-                            <NodeJS />
+                            <Python />
                         </div>
-                        <div className="right">BACKEND DEVELOPMENT</div>
+                        <div className="right">DATA SCIENCE (ML/AI)</div>
                     </div>
                     <div className="boxes">
                         <div className="left">
-                            <Unity />
+                            <AWSGlue />
                         </div>
-                        <div className="right">GAME DEVELOPMENT</div>
+                        <div className="right">DATA INGESTION </div>
                     </div>
                     <div className="boxes">
                         <div className="left">
-                            <Swift />
+                            <Snowflake />
                         </div>
-                        <div className="right">APP DEVELOPMENT</div>
+                        <div className="right">CLOUD ARCHITECTURE</div>
                     </div>
                     <div className="buttonCont">
                         <a
                             className="btn btn-custom btn-lg btn-skills"
-                            href="https://github.com"
+                            href="https://github.com/Omizzy24"
                             target="_blank"
                         >
                             {' '}

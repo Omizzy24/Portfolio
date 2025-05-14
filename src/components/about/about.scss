@@ -1,0 +1,368 @@
+/* General styling for the about section */
+.aboutC {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  min-height: 600px;
+  align-items: start;
+  justify-content: start;
+  overflow: hidden;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 40px;
+  background-color: #F4F6F9; /* Light neutral background */
+  box-sizing: border-box;
+}
+
+/* Title styling */
+.aboutC .title {
+  font-size: 55px;
+  font-weight: bold;
+  color: #4A90E2; /* Light blue for main title */
+  text-align: center;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 20px 0;
+  transition: color 0.3s ease;
+}
+
+.aboutC .title:hover {
+  color: #1fbef7; /* Soft cool/icy blue for hover */
+}
+
+/* Subtitle for the section */
+.aboutC .titleSmall {
+  font-size: 22px;
+  font-weight: 300;
+  color: #9E9E9E; /* Light gray for subtitle */
+  text-align: center;
+  margin: 20px 0;
+  letter-spacing: 0.3px;
+}
+
+/* Container for content */
+.aboutC .container {
+  display: flex;
+  position: relative;
+  width: 100%;
+  max-width: 1150px;
+  margin: auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  box-sizing: border-box;
+}
+
+/* Left content (bio) styling */
+.aboutC .container .leftC {
+  width: 60%;
+  padding-right: 50px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+/* Bio text title */
+.aboutC .container .leftC .text {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1D8A75; /* Teal for title text */
+}
+
+/* Main bio text styling */
+.aboutC .container .leftC .textMain {
+  font-size: 20px;
+  color: #333; /* Darker color for improved readability */
+  line-height: 1.8em;
+  margin-top: 15px;
+  font-family: 'Roboto', sans-serif; /* Cleaner, modern font */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px; /* Rounded corners for the bio */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the text box */
+.aboutC .container .leftC .textMain:hover {
+  background-color: #F0F0F0; /* Light gray hover effect */
+}
+
+/* Right content (additional section) */
+.aboutC .container .rightC {
+  width: 32%;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+/* Title for the right section */
+.aboutC .container .rightC .text {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1D8A75; /* Matching teal title */
+}
+
+/* Main text for the right section */
+.aboutC .container .rightC .textMain {
+  font-size: 20px;
+  color: #333;
+  line-height: 1.8em;
+  margin-top: 15px;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for right section text */
+.aboutC .container .rightC .textMain:hover {
+  background-color: #F0F0F0; /* Light gray hover effect */
+}
+
+/* Buttons - unique colors for each button */
+.aboutC .container .rightC .btnC {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+}
+
+.aboutC .container .rightC .btnC .btn {
+  color: white;
+  padding: 15px 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  width: 48%;
+}
+
+/* Button color variations */
+.aboutC .container .rightC .btnC .btn.btnOne {
+  background-color: #1D8A75; /* Teal button */
+}
+
+.aboutC .container .rightC .btnC .btn.btnTwo {
+  background-color: #FF9900; /* AWS orange button */
+}
+
+.aboutC .container .rightC .btnC .btn.btnThree {
+  background-color: #005CFF; /* Blue button */
+}
+
+.aboutC .container .rightC .btnC .btn.btnFour {
+  background-color: #FF4F19; /* EC2 red button */
+}
+
+/* Hover effects for buttons */
+.aboutC .container .rightC .btnC .btn:hover {
+  background-color: #A3D9FF; /* Soft cool/icy blue on hover */
+}
+
+/* Tech Stack Section Header */
+.aboutC .techStackHeader {
+  font-size: 32px;
+  font-weight: bold;
+  color: #4A90E2; /* Light blue for section header */
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+/* Tech badges styling */
+.tech-badge {
+  display: inline-block;
+  background-color: #1D8A75; /* Teal */
+  color: white;
+  border-radius: 20px;
+  padding: 6px 15px;
+  margin-right: 12px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+/* Badge hover effect */
+.tech-badge:hover {
+  background-color: #0B6B53; /* Darker teal on hover */
+}
+
+/* Specific badge colors for each technology */
+.tech-badge.css { background-color: #0066ff; }
+.tech-badge.html { background-color: #0dc5b5; }
+.tech-badge.javascript { background-color: #17b5d8; }
+.tech-badge.python { background-color: #dd7600; }
+.tech-badge.r { background-color: #0a0d4f; }
+.tech-badge.typescript { background-color: #0d64af; }
+.tech-badge.sql { background-color: #0f3f70; }
+
+/* Database badges */
+.tech-badge.mongodb { background-color: #4DB33D; }
+.tech-badge.postgresql { background-color: #336791; }
+.tech-badge.redis { background-color: #C82D2D; }
+.tech-badge.neo4j { background-color: #689F38; }
+.tech-badge.dynamodb { background-color: #B2B3B4; }
+.tech-badge.hadoop { background-color: #F9A825; }
+.tech-badge.oracle { background-color: #F80000; }
+.tech-badge.snowflake { background-color: #00B2FF; }
+.tech-badge.teradata { background-color: #3E6A88; }
+.tech-badge.redshift { background-color: #F6A800; }
+.tech-badge.databricks { background-color: #F4C542; }
+
+/* Cloud and DevOps badges */
+.tech-badge.aws { background-color: #FF9900; }
+.tech-badge.alb { background-color: #b55732; }
+.tech-badge.ec2 { background-color: #793f2d; }
+.tech-badge.ecr { background-color: #7a603a; }
+.tech-badge.eks { background-color: #3e2a0c; }
+.tech-badge.glue { background-color: #6e0594; }
+.tech-badge.lambda { background-color: #5924a8; }
+.tech-badge.s3 { background-color: #0c3680; }
+.tech-badge.rds { background-color: #b7337e; }
+.tech-badge.graphql { background-color: #911068; }
+.tech-badge.appsync { background-color: #009dd2; }
+.tech-badge.devops { background-color: #333; }
+.tech-badge.docker { background-color: #2496ED; }
+.tech-badge.kubernetes { background-color: #326CE5; }
+.tech-badge.terraform { background-color: #7B4F26; }
+.tech-badge.cicd { background-color: #00D084; }
+.tech-badge.github { background-color: #24292F; }
+.tech-badge.jenkins { background-color: #F57224; }
+.tech-badge.gitlab { background-color: #1c57cd; }
+.tech-badge.cloudbees { background-color: #3A8BBA; }
+.tech-badge.route53 { background-color: #3C73D1; }
+.tech-badge.mwa { background-color: #0F8D2A; }
+.tech-badge.sagemaker { background-color: #F25D19; }
+.tech-badge.step-function { background-color: #FFBA00; }
+
+/* Machine Learning and Data Science badges */
+.tech-badge.keras { background-color: #D00000; }
+.tech-badge.matplotlib { background-color: #003D66; }
+.tech-badge.numpy { background-color: #2C3E50; }
+.tech-badge.pandas { background-color: #006F5F; }
+.tech-badge.pytorch { background-color: #EE4C2C; }
+.tech-badge.scikit-learn { background-color: #F9D19C; }
+.tech-badge.seaborn { background-color: #008C76; }
+.tech-badge.tensorflow { background-color: #FF6F00; }
+.tech-badge.xgboost { background-color: #F49D3D; }
+
+/* Business Intelligence badges */
+.tech-badge.powerbi { background-color: #F2C811; }
+.tech-badge.splunk { background-color: #00A3D1; }
+.tech-badge.tableau { background-color: #0065A1; }
+
+/* Frontend Frameworks */
+.tech-badge.react { background-color: #61DAFB; }
+.tech-badge.nextjs { background-color: #000000; }
+
+.photo-section {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.section-header {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.photo-slide {
+  padding: 10px;
+}
+
+.career-photo {
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  object-fit: cover;
+  width: 100%;
+  max-height: 300px;
+}
+
+.photo-caption {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 915px) {
+  .aboutC .title {
+      font-size: 43px;
+  }
+
+  .aboutC .container {
+      flex-direction: column;
+      gap: 30px;
+  }
+
+  .aboutC .container .leftC, .aboutC .container .rightC {
+      width: 100%;
+      padding-right: 0;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .aboutC .container .rightC .textMain {
+      width: 90%;
+  }
+
+  .aboutC .container .rightC .btnC {
+      width: 90%;
+      flex-direction: column;
+      gap: 10px;
+  }
+}
+
+.photo-section {
+  margin-top: 60px;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.section-header {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #222;
+}
+
+.photo-slide {
+  padding: 10px;
+}
+
+.career-photo {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.photo-caption {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+
+
+
+
+
+
+

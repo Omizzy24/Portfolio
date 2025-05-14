@@ -4,8 +4,8 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="topHeader">
-        <div className="left">2024</div>
-        <div className="right">Github</div>
+        <div className="left">2025</div>
+        <div className="right">NYC/CT </div>
       </div>
       <div className="linksSection">
         <div className="left">
@@ -18,7 +18,6 @@ export default function Footer() {
             {/* NOTE: onClick is currently removed */}
             <div className="bottomText">Github</div>
             <div className="bottomText">Instagram</div>
-            <div className="bottomText">Twitter (X)</div>
             <div className="bottomText">Linkedin</div>
           </div>
         </div>
@@ -44,17 +43,12 @@ export default function Footer() {
       </div>
       <div className="copyright">
         <div className="top">
-          © &nbsp;
-          <span id="copyright-year" /> &nbsp;All Rights Reserved
+          © 2025 &nbsp;Omar Al-Shammary &nbsp;All Rights Reserved
         </div>
         <div className="bottom">
-          Template Developed by{" "}
-          <Link href={"https://github.com/divyanshudhruv"}>
-            &nbsp;<u>@divyanshudhruv</u>&nbsp;
-          </Link>{" "}
-          and{" "}
-          <Link href={"https://github.com/valdemirum"}>
-            &nbsp;<u>@valdemirum</u>&nbsp;
+          Designed and Developed by&nbsp;
+          <Link href="https://github.com/omaral-shammary">
+            <u>Omar Al-Shammary</u>
           </Link>
         </div>
       </div>
