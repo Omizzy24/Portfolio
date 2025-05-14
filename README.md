@@ -31,20 +31,21 @@ Portfolio/ ├── src/ │ ├── components/ │ │ ├── hero/ # He
 1. Clone the repository:
    ```bash
    git clone https://github.com/Omizzy24/Portfolio.git
-
+   ```
 
 2. Navigate to te project directory
    ```
    cd Portfolio
+   ```
 3. Install dependencies
    ```
    npm install
+   ```
 
 4. Development; start the development server:
    ```
    npm run dev
-
-
+   ```
 The application will be available at http://localhost:3000.
 
 Build for Production
