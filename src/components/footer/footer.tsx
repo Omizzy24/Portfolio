@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="topHeader">
-        <div className="left">2025</div>
+        <div className="left">2026</div>
         <div className="right">NYC/CT </div>
       </div>
       <div className="linksSection">
