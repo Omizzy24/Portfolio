@@ -4,14 +4,14 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="topHeader">
-        <div className="left">2025</div>
-        <div className="right">NYC/CT </div>
+        <div className="left">2026</div>
+        <div className="right">NYC/CT Area</div>
       </div>
       <div className="linksSection">
         <div className="left">
           <div className="container">
             <div className="topText">Get in touch</div>
-            <div className="bottomText">youremail@proton.me</div>
+            <div className="bottomText">omar.al-shammary@proton.me</div>
           </div>
           <div className="container">
             <div className="topText">Connect</div>
@@ -43,7 +43,7 @@ export default function Footer() {
       </div>
       <div className="copyright">
         <div className="top">
-          © 2025 &nbsp;Omar Al-Shammary &nbsp;All Rights Reserved
+          © 2026 &nbsp;Omar Al-Shammary &nbsp;All Rights Reserved
         </div>
         <div className="bottom">
           Designed and Developed by&nbsp;
